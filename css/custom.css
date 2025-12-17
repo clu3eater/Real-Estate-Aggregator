@@ -1,0 +1,75 @@
+/* Modern Navbar Styles */
+.bg-modern {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+.navbar-brand:hover {
+    color: #f093fb !important;
+}
+.nav-hover {
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+.nav-hover:hover {
+    color: #f5576c !important;
+    transform: translateY(-1px);
+}
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+.badge {
+    font-size: 0.75rem;
+}
+
+/* Existing styles (keep these) */
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.btn-custom {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    border: none;
+}
+.btn-custom:hover {
+    background: linear-gradient(45deg, #218838, #17a2b8);
+}
+.btn-gradient {
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    border: none;
+    color: white;
+}
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #5a67d8, #6b46c1);
+    transform: translateY(-2px);
+}
+.btn-gradient-sm {
+    background: linear-gradient(45deg, #28a745, #20c997);
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.btn-gradient-sm:hover {
+    background: linear-gradient(45deg, #218838, #17a2b8);
+}
+.btn-success-sm {
+    background: linear-gradient(45deg, #dc3545, #fd7e14);
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.btn-success-sm:hover {
+    background: linear-gradient(45deg, #c82333, #e8590c);
+}
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
