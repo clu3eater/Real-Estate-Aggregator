@@ -1,0 +1,37 @@
+# System Requirements for Real Estate Aggregator
+
+# Web Server
+Apache 2.4+
+
+# Database
+MySQL 5.7+ or MariaDB 10.0+
+
+# PHP
+PHP 7.4+ or PHP 8.0+
+
+# Required PHP Extensions
+php-mysqli
+php-pdo
+php-gd (for image processing)
+php-fileinfo (for file uploads)
+php-session
+php-json
+
+# Development Environment (Recommended)
+XAMPP 8.0+ (includes Apache, MySQL, PHP)
+# Alternative: WAMP, LAMP, or MAMP
+
+# Browser Compatibility
+Modern web browsers:
+- Chrome 90+
+- Firefox 88+
+- Safari 14+
+- Edge 90+
+
+# Disk Space
+Minimum 100MB for application
+Additional space for uploaded property images
+
+# Optional Tools
+Git (for version control)
+phpMyAdmin (for database management, included in XAMPP)
